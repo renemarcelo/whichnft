@@ -19,15 +19,13 @@
 </head>
 <body>
   <header>
-    <div class="header-logo-container">
-      <a href="/">
-        <img 
-          src="{% static 'images/NFT_Icon.png' %}" 
-          alt="The Which NFT Logo"
-        >
-      </a>
-    </div>
-    <nav>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+                Which
+                <img src="{% static 'images/NFT_Icon.png' %}" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+        </div>
       <ul>
         <li><a href="/about">About</a></li>
       </ul>
