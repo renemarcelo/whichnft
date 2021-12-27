@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +11,7 @@
     type="image/png"
     href=""
   >
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
   <title>Which NFT</title>
   {% block head %}
   {% endblock %}
