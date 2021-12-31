@@ -20,3 +20,5 @@ nfts = [
     NFT('Jimi Hendrix Guitar', "Jimi Hendrix's Guitar from Woodstock", 950)
 ]
 
+def nfts_index(request):
+    return render(request, 'nfts/index.html', { 'nfts': nfts })
