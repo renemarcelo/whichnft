@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="page-header">
+  <h1>NFT List</h1>
+</section>
+
+<section class="card-container">
+  {% for nft in nfts %}
+    <div class="card">
+      <div class="card-content">
+        <div class="card-img-container">
+          <img 
+            src="{% static 'images/NFT_Icon.png' %}" 
+            alt=""
+          >
+        </div>
+        <h2 class="card-title">{{ nft.name }}</h2>
+        <p><small>{{ nft.description }}</small></p>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+{% endblock %}
