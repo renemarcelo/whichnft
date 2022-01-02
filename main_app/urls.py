@@ -4,5 +4,5 @@ from . import views
 urlpatterns = [
     path('', views.home, name='home'),
     path('about/', views.about, name='about'),
-    path('nfts/', views.nfts_index, name='nfts_index')
+    path('collections/', views.collections_index, name='collections_index')
 ]
