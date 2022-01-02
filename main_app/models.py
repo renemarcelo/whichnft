@@ -11,7 +11,7 @@ class Collection(models.Model):
     total_sales = models.IntegerField()
     num_nfts = models.IntegerField()
     num_owners = models.IntegerField()
-    average_price = models.DecimalField()
+    average_price = models.DecimalField(max_digits=100, decimal_places=2)
     seven_day_sales = models.IntegerField()
     has_discord = models.BooleanField()
     has_twitter = models.BooleanField()
