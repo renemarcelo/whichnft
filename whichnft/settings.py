@@ -1,6 +1,7 @@
 import environ
 env = environ.Env()
 environ.Env.read_env()
+
 """
 Django settings for whichnft project.
 
@@ -127,3 +128,8 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+DEBUG_PROPAGATE_EXCEPTIONS = True
+
+import django_heroku
+django_heroku.settings(locals())
