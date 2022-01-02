@@ -4,6 +4,7 @@
 {% block content %}
 
 <section class="collection-container">
+  <h1>{{ collection.name }}</h1>
   <div class="collection-img">
     <img 
       src="{{ collection.banner_url }}" 
@@ -11,7 +12,7 @@
     >
   </div>
   <div class="collection-details">
-    <h1>{{ collection.name }}</h1>
+    <a href="{{ collection.opensea_url }}">View this collection on OpenSea!</a>
     <p>No. of Editors: {{ collection.num_editors }}</p>
     <p>No. of Traits: {{ collection.num_traits }}</p>
     <p>Created On: {{ collection.created_date }}</p>

@@ -10,7 +10,7 @@
 <section class="card-container">
   {% for collection in collections %}
     <div class="card">
-      <a href="/collections/{{ collection.id }}">
+      <a href="{% url 'collections_detail' collection.id %}">
         <div class="card-content">
           <div class="card-img-container">
             <h2 class="card-title">{{ collection.name }}</h2>
