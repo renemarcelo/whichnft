@@ -1,0 +1,47 @@
+{
+"0": {
+	"name": "adidas Originals Into the Metaverse", 
+	"slug": "adidasoriginals", 
+	"banner_url": "https://lh3.googleusercontent.com/iUwczcA9bw-JwPIm9jTiOG3b_qK9nqxs_Fn3GXs74pvkBY7toLN2JhgoPgriFS6ivSmcErC7USjZJqLTiQpYuU40kzJLfkfJpPnY=s2500",
+ 	"num_editors": 86.0, 
+	"num_traits": 1.0, 
+	"created_date": "2021-12-17T01:05:06.570334", 
+	"total_sales": 19009.0, 
+	"num_nfts": 1.0, 
+	"num_owners": 20867.0, 
+	"average_price": 0.747043057138908, 
+	"seven_day_sales": 1935.0, 
+	"has_discord": 1.0, 
+	"has_twitter": 1.0, 
+	"has_instagram": 1.0, 
+	"has_wiki": 0.0, 
+	"description_words": 14.0, 
+	"cluster": null
+},
+
+"1": {
+	"name": "LOSTPOETS", 
+	"slug": "lostpoets", 
+	"banner_url": "https://lh3.googleusercontent.com/VNQfgH6h0cuiP6U-tTZ8qRUVivEtB1TdMsn6MWG_15wzr1899ehqrVZ_vrh5a3uNkseRmTfLyi0X8Q-WOq06e3IhMSiCyHV6XX97oxM=s2500", 
+	"num_editors": 85.0, 
+	"num_traits": 0.0, 
+	"created_date": "2021-09-03T04:50:03.338901", 
+	"total_sales": 31799.0, 
+	"num_nfts": 27589.0, 
+	"num_owners": 8428.0, 
+	"average_price": 0.861368664166587, 
+	"seven_day_sales": 376.0, 
+	"has_discord": 0.0, 
+	"has_twitter": 1.0, 
+	"has_instagram": 0.0, 
+	"has_wiki": 0.0, 
+	"description_words": 3.0, 
+	"cluster": "short_description"
+}, 
+
+"2": {"name": "888 inner circle", "slug": "888innercircle", "banner_url": "https://lh3.googleusercontent.com/l8rHfJxqKXN1m0BEfEELk4UYJI9_O6ACAiPFYFPKFTVb4nGv8BKL3THXEf1l_bo1mXvqw7Mhc-kIFug__6c28Njt3dcgjxM7IRnPHg=s2500", "num_editors": 83.0, "num_traits": 3.0, "created_date": "2021-09-09T17:26:23.390102", "total_sales": 13675.0, "num_nfts": 1.0, "num_owners": 3657.0, "average_price": 1.1826428527927824, "seven_day_sales": 722.0, "has_discord": 1.0, "has_twitter": 1.0, "has_instagram": 0.0, "has_wiki": 0.0, "description_words": 41.0, "cluster": "short_description"}, 
+
+"3": {"name": "iNFT Personality Pod Sale", "slug": "inft-personality-pod-sale", "banner_url": "https://lh3.googleusercontent.com/QL_soNRHBsOZYwXLEFZXhiL1WgRwsOiy3RSqAREAcl9bMxA482wbVJOVtHrqe-swaJh66bnA0mjeAlj81UkDmwVyJyVVlD1aZWXdRw=s2500", "num_editors": 83.0, "num_traits": 2.0, "created_date": "2021-10-20T18:56:17.613352", "total_sales": 8835.0, "num_nfts": 3.0, "num_owners": 1.0, "average_price": 0.22640633842667598, "seven_day_sales": 0.0, "has_discord": 1.0, "has_twitter": 1.0, "has_instagram": 0.0, "has_wiki": 0.0, "description_words": 81.0, "cluster": "medium_description"}, 
+
+"4": {"name": "KINGS OF LEON x YELLOWHEART", "slug": "kings-of-leon-yellowheart", "banner_url": "https://lh3.googleusercontent.com/51nHz2Zqq9hWFPibhWopGEmt60kAElbi0nXvuvVH4ob7CkjKQvYWrVcclqNGEAcKcaW5RVJtTSm2KwfBBbQltbHgWLw5TahAPi_lHw=s2500", "num_editors": 83.0, "num_traits": 2.0, "created_date": "2021-03-02T19:31:25.717343", "total_sales": 11044.0, "num_nfts": 25.0, "num_owners": 382.0, "average_price": 0.08779327868525842, "seven_day_sales": 0.0, "has_discord": 1.0, "has_twitter": 1.0, "has_instagram": 0.0, "has_wiki": 0.0, "description_words": 65.0, "cluster": "medium_description"}
+}
