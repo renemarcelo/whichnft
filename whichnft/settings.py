@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    # livereload importantly before contrib.staticfiles etc.
+    'livereload',
     'django.contrib.staticfiles',
 ]
 
@@ -52,6 +54,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    ## livereload middleware to inject with DEBUG=true
+    'livereload.middleware.LiveReloadScript'
 ]
 
 ROOT_URLCONF = 'whichnft.urls'
